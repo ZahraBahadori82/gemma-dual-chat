@@ -477,7 +477,7 @@ model1_name = st.selectbox(
 | Model | Size | Speed (CPU) | Response Quality | RAM Required |
 |-------|------|-------------|------------------|--------------|
 | **gemma2:2b** | 1.5GB | ⭐⭐⭐⭐⭐ Fast | ⭐⭐⭐ Good | 4GB |
-| **gemma3:4b** | 3.5GB | ⭐⭐⭐⭐ Fast | ⭐⭐⭐⭐ Excellent | 9GB |
+| **gemma3:4b** | 3.3GB | ⭐⭐⭐⭐ Fast | ⭐⭐⭐⭐ Excellent | 9GB |
 | **gemma3n:e4b** | 7.5GB | ⭐⭐⭐ Medium | ⭐⭐⭐⭐⭐ Outstanding | 13GB |
 
 **Recommendations:**
