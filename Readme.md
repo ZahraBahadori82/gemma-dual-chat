@@ -287,8 +287,8 @@ Sample screenshots from the UI and results are available in the `result/` folder
 ![Conversation](result/Screenshot%202025-11-21%20024324.png)
 
 ### Settings Panel:
-![Settings](result\Screenshot 2025-11-21 021503.png)
-![Settings](result\Screenshot 2025-11-21 021551.png)
+![Settings](result/Screenshot%2025-11-21%021503.png)
+![Settings](result/Screenshot%2025-11-21%021551.png)
 
 
 **Demo Video:**
