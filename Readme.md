@@ -38,7 +38,7 @@ This project was developed as part of a job interview task and enables **automat
 ## ✨ Features
 
 - ✅ **Fully Local Execution**: No internet, API keys, or external services required
-- ✅ **Gemma Model Support**: Gemma 3 (4B), Gemma 2 (9B/2B)
+- ✅ **Gemma Model Support**: Gemma 3 (4B), Gemma 3n (4B)
 - ✅ **Role & Prompt Configuration**: Complete control over each model's behavior
 - ✅ **Persian UI**: Designed for Persian-speaking users
 - ✅ **Real-time Display**: Live conversation view with distinct color coding
@@ -171,7 +171,7 @@ The application will run at:
 ### 1. Initial Settings (Sidebar)
 
 #### 🔵 Model 1:
-- **Select Model**: `gemma3:4b`, `gemma3n:e4b`, or `gemma2:2b`
+- **Select Model**: `gemma3:4b`, `gemma3n:e4b`
 - **Model Role**: e.g., "Physics Teacher"
 - **System Prompt**: 
   ```
@@ -384,6 +384,8 @@ ollama list
 
 # Download required model
 ollama pull gemma3:4b
+ollama pull gemma3n:e4b
+
 ```
 
 ---
@@ -464,7 +466,7 @@ Then add to model list in `app.py`:
 ```python
 model1_name = st.selectbox(
     "Select Model:",
-    ["gemma3:4b", "gemma2:9b", "gemma2:2b", 
+    ["gemma3:4b","gemma3n:e4b" ,"gemma2:9b", "gemma2:2b", 
      "llama2:7b", "mistral:7b"],  # Added
     key="model1_select"
 )
